@@ -1,2 +1,9 @@
-u: admin
-p: over1234
+# Raspi Wi-Fi Repeater
+
+## Frontend
+- NodeJS
+- React
+
+## Backend
+- Python
+- Django
