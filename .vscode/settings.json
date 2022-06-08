@@ -1,0 +1,13 @@
+{
+    "files.exclude" : {
+        "**/__pycache__" : true,
+        "**/__init__.py" : false,
+        "**/package-lock.json" : true,
+        "**/poetry.lock" : true,
+        "**/node_modules" : false,
+        "**/frontend": false,
+    },
+    "cSpell.words": [
+        "ssid"
+    ]
+}

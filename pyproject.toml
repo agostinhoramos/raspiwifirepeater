@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "RaspiWiFiRepeater"
+version = "0.2.3"
+description = "Raspberry Pi Wi-Fi Repeater"
+authors = ["Agostinho Ramos <agostinhopina095@gmail.com>"]
+maintainers = ["Agostinho Ramos <agostinhopina095@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "3.2"
+python-dotenv = "^0.20.0"
+djangorestframework = "^3.13.1"
+djangorestframework-simplejwt = "^5.1.0"
+django-environ = "^0.8.1"
+django-cors-headers = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
